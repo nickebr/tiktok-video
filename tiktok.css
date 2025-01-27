@@ -1,0 +1,32 @@
+body {
+	font-family: Impact, fantasy;
+	background-color: white;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #333;
+	margin-top: 20px;
+	font-size: 2rem;
+}
+
+
+
+iframe {
+width: 660px;
+height: 615px;
+border: none;
+margin: 20px auto;
+display: block;
+}
+
+iframe.small {
+	width: 400px;
+	height: 225px;
+}
+
+iframe.large {
+	width: 850px;
+	height: 600px;
