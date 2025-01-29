@@ -1,33 +1,33 @@
 body {
-	font-family: Impact, fantasy;
-	background-color: white;
-	text-align: center;
-	margin: 0;
-	padding: 0;
+	font-family: Impact, fantasy; /* Anger textfont*/
+	background-color: white;  /* Bakgrundsfärg på sidan */
+	text-align: center;  /* Centrerar all text */
+	margin: 0; /* Tar bort standardmarginaler */
+	padding: 0; /* Tar bort standardpadding */
 }
 
 h1 {
-	color: #333;
-	margin-top: 20px;
-	font-size: 2rem;
+	color: #333; /* Sätter textfärg till mörkgrå */
+	margin-top: 20px; /* Ger avstånd på 20px ovanför rubriken */
+	font-size: 2rem; /* Sätter fontstorleken */
 }
 
 
 
 iframe {
-width: 450px;
-height: 300px;
-border: none;
-margin: 20px auto;
-display: block;
+width: 450px; /* Sätter bredden på iframe*/
+height: 300px; /* Anger höjden på iframe*/
+border: none; /* Tar bort ram runt iframe */
+margin: 20px auto; /* Ger avstånd på 20px runt iframe */
+display: block; /* Gör den till ett blockelement*/
 }
 
 iframe.small {
-	width: 300px;
-	height: 225px;
+	width: 300px; /* Gör så att iframe blir mindre genom att minska bredden*/
+	height: 225px; /* Sätter höjden på små iframes till 225px */
 }
 
 iframe.large {
-	width: 850px;
-	height: 600px;
+	width: 850px; /* Sätter bredden på stora iframes till 850px */
+	height: 600px; /* Sätter höjden på stora iframes till 600px */
 }
